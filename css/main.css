@@ -22,11 +22,12 @@ body {
 }
 
 header {
+  color: #fff;
   background-color: #18294f;
   padding: .3em 0 .5em;
 }
 
-h1 {
+header h1 {
   color: #fff;
   margin-top: 0;
   font-size: 2rem;
@@ -39,7 +40,7 @@ nav {
   font-size: 1.125rem;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 5px;
   margin-bottom: 0;
@@ -55,7 +56,7 @@ li:hover {
   background-color: #6c8fe0;
 }
 
-li:hover a {
+nav a:hover {
   color: #fff;
 }
 
@@ -95,7 +96,6 @@ a {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 
 }
