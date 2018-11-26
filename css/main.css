@@ -23,6 +23,7 @@ body {
 
 header {
   background-color: #18294f;
+  padding: .3em 0 .5em;
 }
 
 h1 {
@@ -40,6 +41,21 @@ nav {
 
 ul {
   list-style-type: none;
+  padding: 5px;
+  margin: .9rem;
+}
+
+li {
+  padding: 5px;
+}
+
+li:hover {
+  color: #fff;
+  background-color: #6c8fe0;
+}
+
+li:hover a {
+  color: #fff;
 }
 
 a {
