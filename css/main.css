@@ -4,7 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: 1rem Ubuntu, sans-serif;
+  font: 1em Ubuntu, sans-serif;
 }
 
 *, *::before, *::after {
