@@ -4,6 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 *, *::before, *::after {
@@ -15,6 +16,32 @@ html {
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #18294f;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 0;
+}
+
+nav {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #6c8fe0;
+  text-decoration: none;
+}
 
 @media only screen and (min-width: 25em) {}
 
