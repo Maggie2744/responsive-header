@@ -88,6 +88,8 @@ nav a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   li {
@@ -126,12 +128,6 @@ nav a {
 
   h1 {
     width: 40%;
-  }
-
-  ul {
-  }
-
-  li {
   }
 
 }
