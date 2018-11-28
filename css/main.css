@@ -120,16 +120,18 @@ nav a {
   }
 
   header {
-    display: inline-flex;
+    display: flex;
     width: 100%;
   }
 
   h1 {
-    margin-left: .5em;
+    width: 40%;
   }
 
   ul {
+  }
 
+  li {
   }
 
 }
